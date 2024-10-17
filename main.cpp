@@ -34,7 +34,7 @@ int main()
    if (i > e)
    {
       cout << "You are eligible for the next level" << endl;
-      (i < m) ? cout << "excellent you are A Grade student !!" << " " << ex << " " : (i >= b) ? cout << "good you are B Grade student" << " " << wd << " "
+      (i > a) ? cout << "excellent you are A Grade student !!" << " " << ex << " " : (i >= b) ? cout << "good you are B Grade student" << " " << wd << " "
                                                                                  : (i >= c)   ? cout << "good you are C Grade student" << " " << gj << " "
                                                                                  : (i >= d)   ? cout << "good you are D Grade student" << " " << nimp << " "
                                                                                  : (i >= e)   ? cout << "good you are E Grade student" << " " << ps << " "
